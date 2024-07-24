@@ -1,0 +1,45 @@
+
+ body {
+    font-family: Courier New;
+  }
+  .login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: rgba(250, 25, 25, 0.3)
+  }
+  .form-group {
+  font-family: Courier New;
+    margin-bottom: 15px;
+	
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="email"],
+  input[type="password"] {
+    width: 92%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  
+  }
+  .btn {
+	
+	text-align: center;
+	margin-right: 20px
+    width: 100%;
+    padding:10px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    background-image:
+    linear-gradient(to top, rgba(250, 25, 25, 0.9), rgba(250, 25, 25, 0.6));
+    cursor: pointer;
+
+  .btn:hover {background-image:
+  linear-gradient(to top, rgba(250, 25, 25, 0.6), rgba(250, 25, 25, 0.9));}
+  
